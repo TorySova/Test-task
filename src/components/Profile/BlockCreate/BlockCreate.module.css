@@ -1,0 +1,35 @@
+.create{
+    width: 60%;
+    min-height: 100vh;
+    padding-left: 40px;
+    background: rgb(240, 240, 240);
+}
+.image {
+    display: flex;
+    align-items: flex-end;
+    width: 210px;
+    height: 200px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+.image img{
+    display: flex;
+    width: 210px;
+    height: 140px;
+    border-radius: 5px;
+}
+.addImg{
+    margin-top: 5px;
+    width: 210px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    padding: 5px;
+    width: 50%;
+    text-align: left;
+}
