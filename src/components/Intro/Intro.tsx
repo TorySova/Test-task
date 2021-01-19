@@ -4,10 +4,6 @@ import newPhone from '../../common/img/chat.png'
 import s from './Intro.module.css'
 
 export const Intro = () => {
-
-    // const redirectProfile = () => {
-    //     return <Redirect to={'/profile'} />
-    // }
     return (
         <div className={s.intro}>
             <div className={s.header}>
@@ -18,7 +14,6 @@ export const Intro = () => {
             </div>
             <div className={s.buttonWrap}>
                 <NavLink to="/profile" className={s.button}>🚀 Начать бесплатно </NavLink>
-                {/* <button className={s.button} onClick={redirectProfile}> 🚀 Начать бесплатно</button> */}
             </div>
             <div className={s.discription2}>
                 Регистрация не требуется
