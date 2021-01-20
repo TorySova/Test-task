@@ -28,7 +28,7 @@ export const ModalWindowTrue = (props: ModalsWindowTruePropsType) => {
             <div>
                 <div>Перенаправление в блок</div>
                 <div>
-                    <Select defaultValue="Товар1" style={{ width: 190 }} onChange={handleChange}>
+                    <Select defaultValue="Товар1" style={{ width: 230 }} onChange={handleChange}>
                         <OptGroup label="Категория1">
                             <Option value="Товар1">Товар1</Option>
                         </OptGroup>

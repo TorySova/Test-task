@@ -7,10 +7,10 @@ export const Settings = () => {
     return (
         <div className={s.blocks}>
             <div className={s.block}>
-                <div style={{ fontSize: "17px" }}>Блоки вашего бота</div>
+                <div className={s.title}>Блоки вашего бота</div>
                 <div style={{ fontSize: "12px", marginTop: '5px' }}>Ваш бот состоит из блоков с контентом. Блоки можно сравнивнить со страничками на сайте</div>
                 <button className={s.buttonGreeting1}>
-                    <div style={{ fontSize: "17px" }}>
+                    <div style={{ fontSize: "20px" }}>
                         Приветсвенное сообщение
                         </div>
                     <div>
@@ -18,7 +18,7 @@ export const Settings = () => {
                         </div>
                 </button>
                 <button className={s.buttonGreeting}>
-                    <div style={{ fontSize: "17px" }}>
+                    <div style={{ fontSize: "20px" }}>
                         Приветсвенное сообщение
                         </div>
                     <div>
@@ -27,35 +27,35 @@ export const Settings = () => {
                 </button>
             </div>
             <div className={s.block}>
-                <div>Основные компоненты</div>
+                <div className={s.title}>Основные компоненты</div>
                 <div className={s.buttonGroup}>
-                    <Button size={'small'}>главное меню</Button>
-                    <Button size={'small'}>о нас</Button>
-                    <Button size={'small'}>каталог</Button>
-                    <Button size={'small'}>мой баланс</Button>
+                    <button  className={s.button}>главное меню</button>
+                    <button className={s.button}>о нас</button>
+                    <button className={s.button}>каталог</button>
+                    <button className={s.button}>мой баланс</button>
                 </div>
             </div>
             <div className={s.block}>
-                <div>Категории</div>
+                <div className={s.title}>Категории</div>
                 <div className={s.buttonGroup}>
-                    <Button size={'small'}>Киев</Button>
-                    <Button size={'small'}>Запорожье</Button>
-                    <Button size={'small'}>Харьков</Button>
+                    <button className={s.button}>Киев</button>
+                    <button className={s.button}>Запорожье</button>
+                    <button className={s.button}>Харьков</button>
                 </div>
             </div>
             <div className={s.block}>
-                <div>Подкатегории Киев</div>
+                <div className={s.title}>Подкатегории Киев</div>
                 <div className={s.buttonGroup}>
-                    <Button size={'small'}>➕</Button>
+                    <button className={s.button}>➕</button>
 
                 </div>
             </div>
             <div className={s.block}>
-                <div>Товары Киев</div>
+                <div className={s.title}>Товары Киев</div>
                 <div className={s.buttonGroup}>
-                    <Button size={'small'}>Candy nut</Button>
-                    <Button size={'small'}>Choco Lapki</Button>
-                    <Button size={'small'}>Choco Lapki</Button>
+                    <button className={s.button}>Candy nut</button>
+                    <button className={s.button}>Choco Lapki</button>
+                    <button className={s.button}>Choco Lapki</button>
                 </div>
             </div>
         </div>

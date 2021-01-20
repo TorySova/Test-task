@@ -7,20 +7,20 @@
 .image {
     display: flex;
     align-items: flex-end;
-    width: 210px;
-    height: 200px;
+    width: 250px;
+    height: 240px;
     border-radius: 5px;
     background: rgb(255, 255, 255);
 }
 .image img{
     display: flex;
-    width: 210px;
-    height: 140px;
+    width: 250px;
+    height: 160px;
     border-radius: 5px;
 }
 .addImg{
     margin-top: 5px;
-    width: 210px;
+    width: 250px;
     height: 50px;
     border-radius: 5px;
     background: rgb(255, 255, 255);

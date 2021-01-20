@@ -50,7 +50,7 @@
   
   .buttonWrap:hover{
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
-    text-decoration: underline;
+    text-decoration: none;
 }
 .discription2{
     margin-top: 15px;

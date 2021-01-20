@@ -1,6 +1,9 @@
 .profileWrap{
     height: 100vh;    
     display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
     font-family: 'Montserrat', sans-serif;
 }
 

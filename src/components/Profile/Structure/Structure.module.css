@@ -1,6 +1,7 @@
 .structure{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     width: 10%;
     min-height: 100vh;
@@ -10,13 +11,18 @@
     margin-top: 10px;
     width: 80px;
     height: 80px;
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
     font-size: 14px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.item:hover{
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.5s ease;
 }
 .item img{
     width: 40px;
