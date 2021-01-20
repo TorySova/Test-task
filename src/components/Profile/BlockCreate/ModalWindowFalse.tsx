@@ -1,10 +1,10 @@
-import s from './ModalsWindowFalse.module.css'
+import s from './ModalWindowFalse.module.css'
 
 type PropsType = {
     setModal: (boolean: boolean) => void
 }
 
-export const ModalsWindowFalse = (props: PropsType) => {
+export const ModalWindowFalse = (props: PropsType) => {
     return (
         <div>
             <div className={s.greetingMessage}>

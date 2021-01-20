@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import s from './BlockCreate.module.css'
 import 'antd/dist/antd.css';
 import { Switch } from 'antd';
-import { ModalsWindowTrue } from './ModalsWindowTrue';
-import { ModalsWindowFalse } from './ModalsWindowFalse';
+import { ModalWindowTrue } from './ModalWindowTrue';
+import { ModalWindowFalse } from './ModalWindowFalse';
 
-export const BlockCreate = () => {
+export const Create = () => {
     const [modal, setModal] = useState(false)
     return (
         <div className={s.create}>
@@ -20,7 +20,7 @@ export const BlockCreate = () => {
                 </div>
             </div>
             {
-                modal ? <ModalsWindowTrue setModal={setModal} /> : <ModalsWindowFalse setModal={setModal} />
+                modal ? <ModalWindowTrue setModal={setModal} /> : <ModalWindowFalse setModal={setModal} />
             }
 
 

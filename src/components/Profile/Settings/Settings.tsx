@@ -1,9 +1,9 @@
 import React from 'react'
 import s from './BlockSettings.module.css'
-import 'antd/dist/antd.css';
+import '../Create/node_modules/antd/dist/antd.css';
 import { Button } from 'antd';
 
-export const BlockSettings = () => {
+export const Settings = () => {
     return (
         <div className={s.blocks}>
             <div className={s.block}>

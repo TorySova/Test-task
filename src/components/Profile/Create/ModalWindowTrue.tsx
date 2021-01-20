@@ -5,7 +5,7 @@ type ModalsWindowTruePropsType = {
     setModal: (boolean: boolean) => void
 }
 
-export const ModalsWindowTrue = (props: ModalsWindowTruePropsType) => {
+export const ModalWindowTrue = (props: ModalsWindowTruePropsType) => {
     const { Option, OptGroup } = Select;
     function handleChange(value: any) {
         console.log(`selected ${value}`);

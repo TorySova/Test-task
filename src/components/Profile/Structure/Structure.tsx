@@ -2,7 +2,7 @@ import React from 'react'
 import s from './BlockStructure.module.css'
 import str from '../../../common/img/str.png'
 
-export const BlockStructure = () => {
+export const Structure = () => {
     return (
         <div className={s.structure}>
             <div className={s.item} >
