@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import s from './BlockCreate.module.css'
+import s from './Create.module.css'
 import 'antd/dist/antd.css';
 import { Switch } from 'antd';
 import { ModalWindowTrue } from './ModalWindowTrue';

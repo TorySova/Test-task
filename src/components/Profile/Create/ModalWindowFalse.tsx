@@ -1,4 +1,4 @@
-import s from './ModalsWindowFalse.module.css'
+import s from './ModalWindowFalse.module.css'
 
 type PropsType = {
     setModal: (boolean: boolean) => void

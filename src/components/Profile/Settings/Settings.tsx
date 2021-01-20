@@ -1,6 +1,6 @@
 import React from 'react'
-import s from './BlockSettings.module.css'
-import '../Create/node_modules/antd/dist/antd.css';
+import s from './Settings.module.css'
+import 'antd/dist/antd.css';
 import { Button } from 'antd';
 
 export const Settings = () => {

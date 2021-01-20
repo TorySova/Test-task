@@ -1,5 +1,5 @@
 import { Button, Input, Select } from 'antd'
-import s from './ModalsWindowTrue.module.css'
+import s from './ModalWindowTrue.module.css'
 
 type ModalsWindowTruePropsType = {
     setModal: (boolean: boolean) => void

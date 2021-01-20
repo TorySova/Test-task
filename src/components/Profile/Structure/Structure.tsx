@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './BlockStructure.module.css'
+import s from './Structure.module.css'
 import str from '../../../common/img/str.png'
 
 export const Structure = () => {
