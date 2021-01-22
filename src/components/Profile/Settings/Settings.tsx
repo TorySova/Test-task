@@ -46,7 +46,7 @@ export const Settings = () => {
             <div className={s.block}>
                 <div className={s.title}>Подкатегории Киев</div>
                 <div className={s.buttonGroup}>
-                    <button className={s.button}>➕</button>
+                    <button className={s.button}>+</button>
 
                 </div>
             </div>

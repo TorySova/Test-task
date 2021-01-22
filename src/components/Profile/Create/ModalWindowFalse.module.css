@@ -1,7 +1,7 @@
 .greetingMessage{
     margin-top: 5px;
     padding: 5px;
-    width: 250px;
+    width: 300px;
     height: 80px;
     font-size: 14px;
     border-radius: 5px 5px 0 0;
@@ -10,7 +10,7 @@
 .goToMenu{
     margin-top: 2px;
     padding: 5px;
-    width: 250px;
+    width: 300px;
     height: 60px;
     font-size: 14px;
     background: rgb(255, 255, 255);
@@ -18,7 +18,7 @@
 .addButton{
     margin-top: 2px;
     padding: 10px;
-    width: 250px;
+    width: 300px;
     height: 40px;
     font-size: 14px;
     border-radius: 0 0 5px 5px;

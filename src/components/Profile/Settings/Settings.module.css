@@ -9,7 +9,7 @@
 }
 .buttonGreeting1{
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     background: rgb(85, 179, 255);
     color: white;
     border: 0;
@@ -19,7 +19,7 @@
 }
 .buttonGreeting{
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     background: rgb(255, 255, 255);
     border: 2px solid white;
     outline: none;
@@ -38,7 +38,7 @@
     padding: 5px 16px;
     border: none;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     text-decoration: none;
 }

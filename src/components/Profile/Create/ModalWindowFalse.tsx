@@ -15,7 +15,7 @@ export const ModalWindowFalse = (props: PropsType) => {
                 <div>Приветсвенное сообщение</div>
             </div>
             <div className={s.addButton} onClick={() => props.setModal(true)}>
-                ➕ Добавить кнопку
+                + Добавить кнопку
               </div>
         </div>
     )

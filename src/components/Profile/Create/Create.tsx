@@ -9,7 +9,7 @@ export const Create = () => {
     const [modal, setModal] = useState(false)
     return (
         <div className={s.create}>
-            <div style={{ margin: '10px 0 10px 0', fontSize: "20px" }}>Приветсвенное сообщение</div>
+            
             <div className={s.image}>
                 <img src="https://neri-karra.com.ua/content/uploads/images/4.jpg" alt="" />
             </div>

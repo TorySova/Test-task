@@ -7,7 +7,7 @@ export const Intro = () => {
     return (
         <div className={s.intro}>
             <div className={s.header}>
-                Создайте филиал или магизин с нуля в Telegram, автоматизируйте прожажи
+                Создайте филиал или магизин с нуля в Telegram, автоматизируйте продажи
             </div>
             <div className={s.discription}>
                 лучшая платформа с автоматизированным приемом платежей в Bitcoin

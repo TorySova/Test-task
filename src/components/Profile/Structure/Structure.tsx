@@ -7,19 +7,19 @@ export const Structure = () => {
         <div className={s.structure}>
             <div className={s.item} >
                 <img src={str} alt="boxImg" />
-                <div>Структура</div>
+                <div>Блок 1</div>
             </div>
             <div className={s.item}>
                 <img src={str} alt="boxImg" />
-                <div>Структура</div>
+                <div>Блок 2</div>
             </div>
             <div className={s.item}>
                 <img src={str} alt="boxImg" />
-                <div>Структура</div>
+                <div>Блок 3</div>
             </div>
             <div className={s.item}>
                 <img src={str} alt="boxImg" />
-                <div>Структура</div>
+                <div>Блок 4</div>
             </div>
         </div>
     )
