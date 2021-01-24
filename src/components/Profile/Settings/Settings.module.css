@@ -1,13 +1,12 @@
 .blocks{
-    width: 36%;
-    min-height: 100vh;
-    background:  rgb(240, 240, 240);
+    max-width: 450px;
 }
 .block{
     margin-top: 10px;
     margin-left: 10px;
 }
 .buttonGreeting1{
+    width: 100%;
     margin-top: 10px;
     border-radius: 5px;
     background: rgb(85, 179, 255);
@@ -15,16 +14,15 @@
     border: 0;
     outline: none;
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
 }
 .buttonGreeting{
+    width: 100%;
     margin-top: 10px;
     border-radius: 5px;
     background: rgb(255, 255, 255);
     border: 2px solid white;
     outline: none;
     text-align: left;
-    font-family: 'Montserrat', sans-serif; 
 }
 .buttonGreeting:hover{
     background: rgb(85, 179, 255);
@@ -33,6 +31,7 @@
     transition: all 0.5s ease;
 }
 .button{
+    margin-top: 5px;
     margin-right: 5px;
     background: rgb(255, 255, 255);
     padding: 5px 16px;
@@ -49,5 +48,4 @@
 }
 .title{
     font-size: 20px;
-    /* font-weight: 600; */
 }

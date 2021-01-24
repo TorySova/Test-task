@@ -1,9 +1,5 @@
-.create{
-    width: 60%;
-    min-height: 100vh;
-    padding-left: 40px;
-    background: rgb(240, 240, 240);
-    
+.create{  
+    padding-left: 40px;   
 }
 .image {
     margin-top: 10px;
